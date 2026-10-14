@@ -15,6 +15,7 @@ FRESH_SIG = dt.timedelta(minutes=60); FRESH_CLOSE = dt.timedelta(minutes=30)
 CLOSE_W = dt.timedelta(minutes=15); JIT = dt.timedelta(minutes=5)
 WIN_MAX = dt.timedelta(hours=48); PRE_K = dt.timedelta(hours=24)
 LOOKS = [100, 200, 300]
+CHECKPOINT = P("2026-11-17T00:00:00Z")          # Addendum 1: single descriptive feasibility checkpoint
 MECH = {"M1": ("NFL", "spreads"), "M2": ("NFL", "totals"), "M3": ("CFB", "totals")}
 SPORT = {"NFL": "americanfootball_nfl", "CFB": "americanfootball_ncaaf"}
 MARKETS = {"NFL": "spreads,totals", "CFB": "totals"}
@@ -260,6 +261,20 @@ def looks(now):
                 open(os.path.join(ROOT, "looks", f"{mech}_STOPPED"), "w").write(f"{d} at look {N}. Freeze; independent audit. No betting authorized.\n")
                 break
 
+# ---------------- Addendum 1 descriptive feasibility checkpoint ----------------
+def feasibility_checkpoint(now):
+    fn = os.path.join(ROOT, "looks", "feasibility_checkpoint_2026-11-17.json")
+    if now < CHECKPOINT or os.path.exists(fn): return
+    labs = read_log("log/labels.jsonl"); t0s = read_log("log/t0.jsonl"); out = dict(checkpoint=F(CHECKPOINT), computed_at=F(now), mechanisms={})
+    for mech in MECH:
+        main = collections.Counter(r["label"] for r in labs if r["mech"] == mech and r["label"] != "MECHANISM-STOPPED")
+        n = sum(main.values())
+        out["mechanisms"][mech] = dict(label_counts=dict(main), label_proportions={k: v / n for k, v in main.items()} if n else {},
+            preexisting_count=main.get("PREEXISTING", 0), preexisting_proportion=(main.get("PREEXISTING", 0) / n) if n else None,
+            t0_records=sum(1 for r in t0s if r["mech"] == mech), signal_labels=main.get("SIGNAL", 0),
+            administrative_mechanism_stopped=sum(1 for r in labs if r["mech"] == mech and r["label"] == "MECHANISM-STOPPED"))
+    json.dump(out, open(fn, "w"), indent=1, sort_keys=True)
+
 # ---------------- run ----------------
 def run(now, io, ref_ok):
     TR, tables = load_frozen()
@@ -270,6 +285,7 @@ def run(now, io, ref_ok):
     close_capture(now, io)
     finalize_close(now, TR, tables)
     looks(now)
+    feasibility_checkpoint(now)
 
 # ---------------- live I/O and reference matching ----------------
 def live_io():
