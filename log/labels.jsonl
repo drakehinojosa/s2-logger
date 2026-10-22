@@ -76,3 +76,9 @@
 {"at_seq": 0, "event_id": "f8b869953172e3a19c4cf347b05c1ee8", "label": "PREEXISTING", "logged_at": "2026-10-20T00:00:21Z", "mech": "M3", "prev_hash": "1ad60161019170f45475a7d45435e80cd8b31c5d458615f617ee50d691aa4e04"}
 {"at_seq": 0, "event_id": "ffebea881c1d7b2dfb85b3e590c35985", "label": "PREEXISTING", "logged_at": "2026-10-20T00:00:21Z", "mech": "M1", "prev_hash": "b3d4f04c11c1fcacc2f5da62ffcc7021441542e3e3b8e3c9ea578a35046bcded"}
 {"at_seq": 0, "event_id": "ffebea881c1d7b2dfb85b3e590c35985", "label": "PREEXISTING", "logged_at": "2026-10-20T00:00:21Z", "mech": "M2", "prev_hash": "315c80894eab7d4c205d323defcaa72cdf717e4efe28112cdb690d3d901b6e91"}
+{"event_id": "4853610e63c246f2027a6a248e642c9a", "label": "EV-BELOW-2", "logged_at": "2026-10-22T03:55:16Z", "mech": "M1", "prev_hash": "fffd1f6a24b0155929a3968617f030f75f41785f0e90ff8eca7730beb6ae2ffc"}
+{"event_id": "4853610e63c246f2027a6a248e642c9a", "label": "EV-BELOW-2", "logged_at": "2026-10-22T03:55:16Z", "mech": "M2", "prev_hash": "33f699265f6d16286be98023093c118afcf6a5cf8e3b42e314c5148971bc40d2"}
+{"event_id": "550ec5290f935d311995affbcb0b5c79", "label": "EV-BELOW-2", "logged_at": "2026-10-22T03:55:16Z", "mech": "M1", "prev_hash": "c6ba091c0af7efcfcc66ad34b3f14b5f90057e23ad1cd5d00b612d05669637c4"}
+{"event_id": "550ec5290f935d311995affbcb0b5c79", "label": "EV-BELOW-2", "logged_at": "2026-10-22T03:55:16Z", "mech": "M2", "prev_hash": "262cbca7a36cb86a6a0abb1f9136957721145812aef79d6f32b7bb0c1da5ba75"}
+{"event_id": "e8e5715eefb6a9ce64765e9ddf49c0cc", "label": "EV-BELOW-2", "logged_at": "2026-10-22T03:55:16Z", "mech": "M1", "prev_hash": "c6b7051bd9423cabe980b98b412146e4ff06f16666345f92967512b5f924b8a2"}
+{"event_id": "e8e5715eefb6a9ce64765e9ddf49c0cc", "label": "EV-BELOW-2", "logged_at": "2026-10-22T03:55:16Z", "mech": "M2", "prev_hash": "95ad86c35f7093adf946593406f1e27b713ea4d6f2eff94a5deba3106fc5cff1"}
