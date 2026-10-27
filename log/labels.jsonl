@@ -131,3 +131,12 @@
 {"event_id": "e916f49c82de2ce0b1844ee9f6deccfa", "label": "EV-BELOW-2", "logged_at": "2026-10-27T20:55:19Z", "mech": "M3", "prev_hash": "1cd72efaefd4625df8eff215f00af1a93980ff36a5934407bd93ea5c6c622a5c"}
 {"event_id": "fa9022be308ebe9ca39ecda8ea15bda4", "label": "EV-BELOW-2", "logged_at": "2026-10-27T20:55:19Z", "mech": "M3", "prev_hash": "5d69ec6ec08ff9f460bb9f8965d633c4f8b2a3cdc45f33085d1ae8ccbe66242c"}
 {"event_id": "fc416b26c2c25018a05bc5cb0d80dbb6", "label": "EV-BELOW-2", "logged_at": "2026-10-27T20:55:19Z", "mech": "M3", "prev_hash": "b95df489cd0eae1716b081e182b9837c1548e52a68047797749b8ce9f129482f"}
+{"event_id": "1d5b8007f5249010b9c501138e25ac74", "label": "NO-SAME-LINE-IN-WINDOW", "logged_at": "2026-10-27T22:50:17Z", "mech": "M3", "prev_hash": "0c719589285bc3453f951415103670a31716154e22512ea4232693d6be9c1419"}
+{"event_id": "746742d4bb94424d9e63d00701eef4ec", "label": "EV-BELOW-2", "logged_at": "2026-10-27T22:50:17Z", "mech": "M3", "prev_hash": "7410b6412195ea73bf8cac8cde6b06778ced4ae29a5fbca48386a8ed0f67e912"}
+{"event_id": "877d5834acad37b6142a835438c23001", "label": "EV-BELOW-2", "logged_at": "2026-10-27T22:50:17Z", "mech": "M3", "prev_hash": "121e08aa0d7cfa90fe9b356320a0c74616a41aa3bacd94e1da68cf521ae5dc49"}
+{"event_id": "929937ced936976088a9562342ba0b90", "label": "EV-BELOW-2", "logged_at": "2026-10-27T22:50:17Z", "mech": "M3", "prev_hash": "7c913839a8348ad8f3fc6a15f13fe9773d555e5fe868c95e4c0317da31083391"}
+{"event_id": "9c33dd628312f89764392414cbc99c86", "label": "EV-BELOW-2", "logged_at": "2026-10-27T22:50:17Z", "mech": "M3", "prev_hash": "fe8d67a507cf9215d4e918621cd3ec0fdca58c2001c01aca7a06de11098e8332"}
+{"event_id": "b02a5444929be961896a4db9742a01fa", "label": "EV-BELOW-2", "logged_at": "2026-10-27T22:50:17Z", "mech": "M3", "prev_hash": "339ff6ecbaddca5254cf376f8354d3572514ec7cb770d6ec07ecea859f0d8eaf"}
+{"event_id": "c17c8f9e12ffe066cf601c96090fcb14", "label": "EV-BELOW-2", "logged_at": "2026-10-27T22:50:17Z", "mech": "M3", "prev_hash": "c8ef021d049b1b2f709b7b5d53d512d02e3fc659f67cde6510002684a72f4bc7"}
+{"event_id": "c1fd3e172f0617a0d8543b8fd67fc2ce", "label": "EV-BELOW-2", "logged_at": "2026-10-27T22:50:17Z", "mech": "M3", "prev_hash": "8a88feee65da1c16cf2bd1582a76a52a522c9aecc206401bb99fb5c6ebefa608"}
+{"event_id": "e5ff4a85ab3b8341184a334a390f6ba2", "label": "EV-BELOW-2", "logged_at": "2026-10-27T22:50:17Z", "mech": "M3", "prev_hash": "47ae490c17e05f7705a36f3796f85dc13caa88583253d66f69b9e9b4d9cd9d94"}
