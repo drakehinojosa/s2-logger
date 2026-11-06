@@ -260,3 +260,4 @@
 {"event_id": "9760d8f19f84bfee300a74ceb656c95d", "label": "EV-BELOW-2", "logged_at": "2026-11-05T07:15:18Z", "mech": "M2", "prev_hash": "c9eee07a979b51927ec6bd7d91acadf8f81c14ebb7e6a5be82ab66bfa761f1b8"}
 {"event_id": "fe93e6ab1e553c0169936a0a983c324f", "label": "EV-BELOW-2", "logged_at": "2026-11-05T07:15:18Z", "mech": "M1", "prev_hash": "7942c9f67e5869d08b2962549b6e20c0b455a8da6b8f68d8921ede86c00244a0"}
 {"event_id": "fe93e6ab1e553c0169936a0a983c324f", "label": "EV-BELOW-2", "logged_at": "2026-11-05T07:15:18Z", "mech": "M2", "prev_hash": "54b172e1fba034ec8aa15e94721a16ea5ca89944aa29c40a69cf357de5eb2ecc"}
+{"event_id": "db87d6d1c7367ec043155f226c12ebbc", "label": "NO-BOVADA-OPEN", "logged_at": "2026-11-06T20:30:16Z", "mech": "M3", "prev_hash": "603307e28e20497c99c97b4775fe06f65bae6c629b004e5a05c6b08ef4c50bf5"}
