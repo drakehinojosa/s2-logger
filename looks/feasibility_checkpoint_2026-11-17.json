@@ -1,0 +1,57 @@
+{
+ "checkpoint": "2026-11-17T00:00:00Z",
+ "computed_at": "2026-11-17T00:00:32Z",
+ "mechanisms": {
+  "M1": {
+   "administrative_mechanism_stopped": 0,
+   "label_counts": {
+    "EV-BELOW-2": 26,
+    "NO-SAME-LINE-IN-WINDOW": 7,
+    "PREEXISTING": 11
+   },
+   "label_proportions": {
+    "EV-BELOW-2": 0.5909090909090909,
+    "NO-SAME-LINE-IN-WINDOW": 0.1590909090909091,
+    "PREEXISTING": 0.25
+   },
+   "preexisting_count": 11,
+   "preexisting_proportion": 0.25,
+   "signal_labels": 0,
+   "t0_records": 33
+  },
+  "M2": {
+   "administrative_mechanism_stopped": 0,
+   "label_counts": {
+    "EV-BELOW-2": 33,
+    "PREEXISTING": 11
+   },
+   "label_proportions": {
+    "EV-BELOW-2": 0.75,
+    "PREEXISTING": 0.25
+   },
+   "preexisting_count": 11,
+   "preexisting_proportion": 0.25,
+   "signal_labels": 0,
+   "t0_records": 33
+  },
+  "M3": {
+   "administrative_mechanism_stopped": 0,
+   "label_counts": {
+    "EV-BELOW-2": 117,
+    "NO-BOVADA-OPEN": 1,
+    "NO-SAME-LINE-IN-WINDOW": 1,
+    "PREEXISTING": 56
+   },
+   "label_proportions": {
+    "EV-BELOW-2": 0.6685714285714286,
+    "NO-BOVADA-OPEN": 0.005714285714285714,
+    "NO-SAME-LINE-IN-WINDOW": 0.005714285714285714,
+    "PREEXISTING": 0.32
+   },
+   "preexisting_count": 56,
+   "preexisting_proportion": 0.32,
+   "signal_labels": 0,
+   "t0_records": 118
+  }
+ }
+}
